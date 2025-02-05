@@ -1,10 +1,6 @@
 import React from "react";
 
-interface Props {
-    message: string;
-}
-
-const Login: React.FC<Props> = () => {
+const Login: React.FC = () => {
     return <h1>Hola Mundo</h1>;
 };
 
